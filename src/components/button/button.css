@@ -1,0 +1,17 @@
+.mainbtn{
+    margin-top: 10vh;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.main-button{
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-weight: bolder;
+    border: skyblue 2px solid;
+    transition: ease 1s;
+    cursor: pointer;
+}
+.main-button:hover{
+    background: linear-gradient(to top, skyblue, blue);
+}

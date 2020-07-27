@@ -1,0 +1,71 @@
+.main{
+    position: relative;
+    margin: 40vh 20px 0 20px;
+    text-align: center;
+}
+.main .h2{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.main p{
+    margin-top: 20vh;
+    font-size: 30px;
+}
+.main .Typewriter__cursor{
+    font-size: 50px;
+}
+.section2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20vh 40px 0 40px;
+}
+.div1{
+    width: 50%;
+}
+.div2{
+    width: 50%;
+}
+.div2 img{
+    width: 80%;
+}
+.div1 h2{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.div1 p{
+    font-size: 20px;
+    line-height: 50px;
+}
+@media(max-width: 900px){
+    .section2{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        padding: 20vh 40px 0 40px;
+    }
+    .div1{
+        width: 100%;
+        text-align: center;
+    }
+    .div2{
+        width: 100%;
+    }
+    .div2 img{
+        width: 80%;
+    }
+    .div1 h2{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .div1 p{
+        font-size: 20px;
+        line-height: 50px;
+    }   
+}
